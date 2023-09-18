@@ -1,10 +1,22 @@
 #include "BitArray.h"
 
-unsigned int BitArray::BitMask(unsigned int& location, int& task)
+unsigned int BitArray::BitMask(unsigned int& task, unsigned int& location)
 {
+	unsigned int multiplier_int;
+	multiplier_int = std::floor(location);
+
 	switch (task)
 	{
 	case 1:
+
+	}
+}
+
+unsigned int BitArray::BitMask(unsigned int& task)
+{
+	switch (task)
+	{
+	case 4:
 
 	}
 }
